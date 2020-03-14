@@ -2,7 +2,7 @@ const selectFrom = document.getElementById('fromCurrency');
 const selectTo = document.getElementById('toCurrency');
 const inputAmount = document.getElementById('amount');
 const buttonCalc = document.getElementById('buttonCalc');
-const baseURI = "http://data.fixer.io/api/latest?";
+const baseURI = "https://data.fixer.io/api/latest?";
 const apiKeyURI = "access_key=";
 const currencyKeyURI = "&symbols=";
 const token = "9949dae3c9249a30b0b3c8c8808c616e";
